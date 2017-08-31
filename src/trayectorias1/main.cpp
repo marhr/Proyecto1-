@@ -27,7 +27,7 @@ int  main(int argc, char  **argv)
         cin >> d;
         cout << "Ingrese velocidad: ";
         cin >> v;
-
+        d = d/1000;
         double t = d/v;
         double ta = 0;
 	while(ros::ok()){
@@ -38,12 +38,16 @@ int  main(int argc, char  **argv)
 
 		if(ta<t)
 			m.linear.x = v;
-		else
+		else{
 			m.linear.x = 0;
+			ROS_INFO_STREAM("Adios!");
+			break;
+		}
 
 		pub.publish(m);
 
 		ros::spinOnce();
+		rate.sleep();
 }
 
 	return 0;

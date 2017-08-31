@@ -1,0 +1,8 @@
+<launch>
+     <!-- Turtlesim Node-->
+
+    <node pkg="turtlesim" type="turtlesim_node" name="turtlesim_node"/>
+    <node pkg="trayectorias1" type="trayectorias2_node" name="trayectorias2_node" output="screen" /> 
+    <!-- <node pkg="autonomos_simulation" type="perception_node" name="perception_node" output="screen"/> -->
+
+</launch>

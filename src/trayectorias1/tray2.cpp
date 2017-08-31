@@ -46,8 +46,11 @@ int  main(int argc, char  **argv)
 			ROS_INFO_STREAM( "v ="<<vaux<<", ta="<< ta<<", t="<<t);
 
 		}
-		else if(ta>t)
+		else if(ta>t){
 			vaux =0;
+			ROS_INFO_STREAM("Adios!");
+			break;
+		}
 		else if(ta> t-1){
 			vaux -= v/RATE;
 			ROS_INFO_STREAM( "v ="<<vaux <<", ta="<< ta<<", t="<<t);
