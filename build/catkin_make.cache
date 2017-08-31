@@ -1,0 +1,2 @@
+trayectorias1
+-DCATKIN_DEVEL_PREFIX=/home/mhernandroc/Documents/proyecto1/devel -DCMAKE_INSTALL_PREFIX=/home/mhernandroc/Documents/proyecto1/install -G Unix Makefiles
