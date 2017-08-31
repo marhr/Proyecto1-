@@ -1,1 +1,0 @@
-set(ORDERED_PATHS "/opt/ros/indigo/ros_catkin_ws/install_isolated/lib")

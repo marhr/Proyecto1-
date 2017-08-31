@@ -1,8 +1,0 @@
-prefix=/home/mhernandroc/Documents/proyecto1/devel
-
-Name: trayectorias1
-Description: Description of trayectorias1
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/mhernandroc/Documents/proyecto1/devel/lib 
-Requires: 
